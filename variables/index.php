@@ -2,7 +2,7 @@
 // Declaración de Variables en PHP
 
 // Variable de tipo cadena (string)
-$nombre = "Juan";
+$nombre = "Diana";
 
 // Variable de tipo entero (integer)
 $edad = 30;
