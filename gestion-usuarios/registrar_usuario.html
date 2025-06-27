@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<h2>Formulario de Registro de Usuario</h2>
+<form action="guardar_usuario.php" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" name="nombre" required><br><br>
+    <label for="apellidos">Apellidos:</label><br>
+    <input type="text" name="apellidos" required><br><br>
+    <label for="correo">Correo:</label><br>
+    <input type="email" name="correo" required><br><br>
+    <label for="clave">Contraseña:</label><br>
+    <input type="password" name="clave" required><br><br>
+    <input type="submit" value="Registrar Usuario">
+</form>
+</body>
+</html>
